@@ -1,0 +1,88 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+    }
+
+.container{
+    background-color: black;
+    height: 100vh;
+}
+.containerLogo{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    margin-bottom: 60px;
+}
+.containerMain{
+    
+}
+.containerMain h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.itens{
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    margin: 0 auto;
+}
+.card{
+   padding: 50px 20px;
+   width: 160px;
+}
+.card h3{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 20px;
+}
+.card img{
+    border-radius: 8px;
+    background-color: #121114;
+    margin-bottom: 10px;
+}
+.card figure{
+    width: 160px;
+    height: 160px;
+}
+.containerBotton{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    background-color: #000000;
+}
+.containerBotton button h2{
+    text-decoration: none;
+    height: 28px;
+    background-color: #000000;
+    color: #fff;
+    padding: 0 32px;
+    display: flex;
+    align-items: center;
+    border: solid white 2px;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.card img:hover{
+    
+    border: solid white 2px;
+}
+.plus{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: #121114;
+    border-radius: 8px;
+}
+.containerBotton button h2:hover{
+    background-color: white;
+    color: black;
+}
