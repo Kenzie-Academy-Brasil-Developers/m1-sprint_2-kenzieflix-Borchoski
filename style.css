@@ -70,7 +70,7 @@
     padding-left: 30px;
     padding-right: 30px;
 }
-.card img:hover{
+.perfil:hover{
     
     border: solid white 2px;
 }
@@ -85,4 +85,8 @@
 .containerBotton button h2:hover{
     background-color: white;
     color: black;
+}
+.plus:hover{
+    border: solid white 2px;
+    
 }
